@@ -11,6 +11,6 @@ this is just a little side project ive been working on this chat server is kinda
 
 # Issues 
 
-The Ban ip System is not fully working and im working on it
+It detects the ip when someone joins with the banned ip as there name so im currently trying to fix
 
 Not being Able to Host Through Playit i am working on a fix but for now i recommend hamachi for hosting
