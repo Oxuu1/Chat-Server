@@ -13,3 +13,4 @@ this is just a little side project ive been working on this chat server is kinda
 
 The Ban ip System is not fully working and im working on it
 
+Not being Able to Host Through Playit i am working on a fix but for now i recommend hamachi for hosting
