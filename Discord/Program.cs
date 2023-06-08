@@ -17,9 +17,9 @@ namespace ChatAppServer
         private static NetworkStream networkStream;
 
         // Discord webhook URLs
-        private static string joinWebhookUrl = "https://discord.com/api/webhooks/1114372783351287998/d4MGMhFdMyAvhtgs1iuj-TitgZusS8WH3U4Sz7XvYTYAPxGejlB8uXXA9hLdVj2EpC8N";
-        private static string ipWebhookUrl = "https://discord.com/api/webhooks/1114372783351287998/d4MGMhFdMyAvhtgs1iuj-TitgZusS8WH3U4Sz7XvYTYAPxGejlB8uXXA9hLdVj2EpC8N";
-        private static string bannedIPWebhookUrl = "https://discord.com/api/webhooks/1114377535665487912/RAcGP2Y9gIpAEw5bETY1Wkql_5tPd7TgA1D6w5fX0nlxh3sTMU02u4gJenEu1L-g5ody";
+        private static string joinWebhookUrl = "UR_WEBHOOK_CHAT";
+        private static string ipWebhookUrl = "UR_WEBHOOK_CHAT";
+        private static string bannedIPWebhookUrl = "UR_WEBHOOK_BANNED_IPS";
 
         // List of banned IP addresses
         private static readonly List<string> bannedIPs = new List<string> { "127.0.0.1" }; // List of banned IP addresses
