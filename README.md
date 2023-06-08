@@ -7,3 +7,9 @@ this is just a little side project ive been working on this chat server is kinda
 
 
 ![Screenshot 2023-06-08 191407](https://github.com/Oxuu1/Chat-Server/assets/65877374/34f8d21e-18ba-4218-836a-2eec2b5eb0f9)
+
+
+# Issues 
+
+The Ban ip System is not fully working and im working on it
+
