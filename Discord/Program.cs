@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
@@ -37,12 +37,27 @@ namespace ChatAppServer
 
         static void Main(string[] args)
         {
+
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("                              ███████╗██████╗░░█████╗░███╗░░██╗░█████╗░██╗░░░██╗██╗███╗░░░███╗        ");
+            Console.WriteLine("                              ██╔════╝██╔══██╗██╔══██╗████╗░██║██╔══██╗██║░░░██║██║████╗░████║        ");
+            Console.WriteLine("                              █████╗░░██████╔╝███████║██╔██╗██║██║░░╚═╝██║░░░██║██║██╔████╔██║        ");
+            Console.WriteLine("                              ██╔══╝░░██╔══██╗██╔══██║██║╚████║██║░░██╗██║░░░██║██║██║╚██╔╝██║        ");
+            Console.WriteLine("                              ██║░░░░░██║░░██║██║░░██║██║░╚███║╚█████╔╝╚██████╔╝██║██║░╚═╝░██║        ");
+            Console.WriteLine("                              ╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝░╚════╝░░╚═════╝░╚═╝╚═╝░░░░░╚═╝        ");
+
+
             // Load banned IP addresses from the text file
             LoadBannedIPs("banned_ips.txt");
 
             serverSocket = new TcpListener(IPAddress.Any, 7777);
             serverSocket.Start();
-            Console.WriteLine("Chat Server started...");
+            Console.WriteLine("                                         Server started : Listening to Port 7777");
 
             while (true)
             {
@@ -63,7 +78,7 @@ namespace ChatAppServer
                     continue;
                 }
 
-                SendMessageToDiscord(joinWebhookUrl, $"{clientUsername} joined the chat.");
+                SendMessageToDiscord(joinWebhookUrl, $"{clientUsername} Connected");
 
                 clientsList.Add(clientSocket);
                 clientUsernames.Add(clientSocket, clientUsername);
