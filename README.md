@@ -9,8 +9,12 @@ this is just a little side project ive been working on this chat server is kinda
 ![Screenshot 2023-06-08 191407](https://github.com/Oxuu1/Chat-Server/assets/65877374/34f8d21e-18ba-4218-836a-2eec2b5eb0f9)
 
 
-# Issues 
+# Main Issues
 
-It detects the ip when someone joins with the banned ip as there name so im currently trying to fix
+The ip system only works when someone joins with a banned ip as there name
 
-Not being Able to Host Through Playit i am working on a fix but for now i recommend hamachi for hosting
+You can inly host on a pc im working on making it so you can use playit and replit and more
+
+The banned words are easy to get around so i will find a fix to it
+
+It is easy to grab a ip when using a client im working on a fix for it
