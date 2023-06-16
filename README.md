@@ -15,9 +15,9 @@ Replit dont allow connection to the server working on it
 
 Playit still not working still working on a fix
 
-# Fix
+Ban System is broken still i might just remove it for now
 
-Fix the ban system so that works fully
+# Fix
 
 Fixed it so its harder to bypass ban words
 
