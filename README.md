@@ -11,10 +11,14 @@ this is just a little side project ive been working on this chat server is kinda
 
 # Main Issues
 
-The ip system only works when someone joins with a banned ip as there name
+Replit dont allow connection to the server working on it 
 
-You can inly host on a pc im working on making it so you can use playit and replit and more
+Playit still not working still working on a fix
 
-The banned words are easy to get around so i will find a fix to it
+# Fix
 
-It is easy to grab a ip when using a client im working on a fix for it
+Fix the ban system so that works fully
+
+Fixed it so its harder to bypass ban words
+
+Fixed being banned and still able to join that no longer works it will just take you to you own server
